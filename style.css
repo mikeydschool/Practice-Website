@@ -1,0 +1,43 @@
+body {
+    background-color: #dd00ff;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+}
+
+table {
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 8px;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+input[type] {
+    border: 2px solid #1d4ed8;
+    background-color: #f8fafc;
+}
+
+ol {
+    li {
+        color: #6ee7b7;
+    }
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+p + input {
+    margin-top: 10px;
+}
