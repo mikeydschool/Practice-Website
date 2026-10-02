@@ -1,5 +1,5 @@
 body {
-    background-color: #dd00ff;
+    background-color: #000000;
     color: white;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -9,7 +9,7 @@ body {
 table {
     margin: 20px;
     padding: 10px;
-    border: 3px solid white;
+    border: 3px solid #ff0000;
     border-radius: 8px;
 }
 
@@ -20,17 +20,17 @@ tr {
 }
 
 button:hover {
-    background-color: #1d4ed8;
+    background-color: #ff0015;
 }
 
 input[type] {
-    border: 2px solid #1d4ed8;
+    border: 2px solid #ff0015;
     background-color: #f8fafc;
 }
 
 ol {
     li {
-        color: #00ff97;
+        color: #00ff94;
     }
 }
 
